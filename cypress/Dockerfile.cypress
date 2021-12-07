@@ -1,0 +1,9 @@
+FROM cypress/included:3.2.0
+
+WORKDIR /app
+COPY ./package.json /app/package.json
+COPY ./cypress.json /app/cypress.json
+RUN yarn install
+RUN ls
+RUN pwd
+RUN npx cypress run

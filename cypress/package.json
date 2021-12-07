@@ -1,0 +1,15 @@
+{
+	"name": "e2e",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"directories": {
+		"test": "tests"
+	},
+	"devDependencies": {
+		"cypress": "^9.1.1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
